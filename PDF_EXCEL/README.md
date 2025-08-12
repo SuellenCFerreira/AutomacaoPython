@@ -54,8 +54,24 @@ python seu_script.py
 ### Passos no programa:
 
 1. Escolha o arquivo PDF.
-2. Aguarde a conversão e extração das tabelas.
-3. Escolha onde salvar o arquivo Excel final.
-4. Receba a mensagem de sucesso.
+   
+<img width="664" height="307" alt="image" src="https://github.com/user-attachments/assets/11616280-a162-4565-930d-2f95c88056ab" />
+
+3. Aguarde a conversão e extração das tabelas.
+<img width="298" height="226" alt="image" src="https://github.com/user-attachments/assets/d0c92c7e-5225-4181-93d0-c2fca0fb92e2" />
+
+5. Escolha onde salvar o arquivo Excel final.
+
+<img width="722" height="320" alt="image" src="https://github.com/user-attachments/assets/68fe09d0-ee7c-4a12-a18d-4c24e7fd19a0" />
+
+5. Receba a mensagem de sucesso.
+<img width="418" height="161" alt="image" src="https://github.com/user-attachments/assets/c5c76a6b-ca2f-4624-b04f-642c29bdc228" />
+
+6.Arquivo convertido.
+
+<img width="688" height="259" alt="image" src="https://github.com/user-attachments/assets/5c20e3f2-6690-47b4-8bbb-aa9eb8a557b8" />
+
+
+
 
 
