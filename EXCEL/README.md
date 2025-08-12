@@ -60,6 +60,7 @@ python excel_apresentacao.py
 ## Siga as instruções na tela:
 
 1. Escolha o arquivo Excel com os dados das consultas.
+   
    <img width="598" height="288" alt="image" src="https://github.com/user-attachments/assets/03061728-2316-4937-be55-bcd3f1c56873" />
 
     Modelo de relátorio:
