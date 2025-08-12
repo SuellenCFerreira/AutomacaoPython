@@ -1,56 +1,61 @@
-# AutomaçãoPython
+# 🐍 PDF para Excel com Limpeza Automática
 
-AutomaçãoPython é um conjunto de scripts em Python para automatizar tarefas repetitivas do dia a dia, como extração de dados de PDFs, manipulação e limpeza de planilhas Excel, e outras operações úteis para aumentar a produtividade.
+Este script em Python converte **tabelas de arquivos PDF** para **planilhas Excel** (`.xlsx`) de forma prática, permitindo que o usuário selecione o arquivo e o local de salvamento.  
+Após a conversão, ele aplica uma **limpeza automática** para remover linhas indesejadas (como cabeçalhos repetidos com "Data" ou "Nome").
 
-## Funcionalidades
+---
 
-- Extração de tabelas de arquivos PDF e conversão para Excel
-- Limpeza automática de dados em planilhas
-- Interface gráfica simples para seleção e salvamento de arquivos
-- Mensagens para informar status e erros
+## ✨ Funcionalidades
 
-## Tecnologias usadas
+- Interface gráfica simples com **Tkinter**.
+- Seleção do arquivo PDF e escolha do local/nome do arquivo Excel final.
+- Extração de **todas as tabelas** do PDF usando **Tabula**.
+- Conversão automática para `.xlsx`.
+- Limpeza do arquivo Excel:
+  - Remove linhas repetidas de cabeçalho contendo "Data" ou "Nome".
+- Mensagens de status e erros exibidas para o usuário.
 
-- Python 3
-- tabula-py (para extrair tabelas de PDF)
-- pandas (manipulação de dados)
-- tkinter (interface gráfica)
+---
 
-## Como usar
+## 📦 Dependências
 
-1. Instale as dependências:
-pip install tabula-py pandas
+Para rodar o projeto, você precisa instalar:
 
+```bash
+pip install pandas tabula-py openpyxl
+````
 
-2. Execute o script principal:
+Além disso, o **tabula-py** requer **Java** instalado no sistema.
+
+---
+
+## 🚀 Como Usar
+
+1. Copie ou baixe o script:
+
+```bash
+Baixe https://github.com/SuellenCFerreira/AutomacaoPython/blob/main/PDF_EXCEL/pdf_excel_tabula.py
+```
+
+2. Instale as dependências:
+
+```bash
+pip install pandas tabula-py openpyxl
+```
+
+3. Execute o script:
+
+```bash
 python seu_script.py
+```
 
-3. Siga as instruções na tela para selecionar o PDF e salvar o arquivo Excel gerado.
+---
 
-## Estrutura do projeto
-AutomacaoPython/
+### Passos no programa:
 
-├── PDF_Excel/
+1. Escolha o arquivo PDF.
+2. Aguarde a conversão e extração das tabelas.
+3. Escolha onde salvar o arquivo Excel final.
+4. Receba a mensagem de sucesso.
 
-│ ├── extrair_tabelas_pdf.py
-
-│ └── README.md
-
-├── WebScraping/
-
-│ └── coleta_dados_site.py
-
-├── AutomacaoExcel/
-
-│ └── formatar_planilha.py
-
-└── OutrosProjetos/
-
-└── ...
-
-## Contribuições
-Contribuições são bem-vindas! Abra issues para reportar problemas ou sugerir melhorias. Pull requests também são apreciados.
-
-## Licença
-Este projeto está sob a Licença MIT — veja o arquivo LICENSE para detalhes.
 
